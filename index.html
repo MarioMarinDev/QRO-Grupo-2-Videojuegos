@@ -5,14 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Videojuegos Favoritos</title>
+  <link rel="stylesheet" href="css/estilos.css">
 </head>
-<body style="background-image:url('images/fondo.png'); background-size: cover; font-size: 22px;">
+<body>
   <!-- Encabezado de nuestra página -->
-  <header style="background-color: rgba(255, 255, 255, 0.36); border-radius: 16px; padding: 8px; margin-bottom: 12px; display:flex; justify-content:space-between; align-items: center;">
+  <header class="contenedor" id="encabezado">
     <!-- Título y logo -->
-    <div style="display:flex; align-items: center;">
-      <img src="" alt="Logo">
-      <h1 style="color:rgb(63, 85, 208);">Videojuegos Favoritos</h1>
+    <div class="flex-center">
+      <img src="images/logo.png" alt="Logo" id="logo">
+      <h1>Videojuegos Favoritos</h1>
     </div>
     <!-- Redes sociales / Sub-páginas -->
     <div>
@@ -23,32 +24,30 @@
     </div>
   </header>
   <!-- Contenido principal -->
-  <div style="background-color:rgba(254, 254, 254, 0.306); border-radius: 16px; padding: 8px; display:flex;">
+  <div class="contenedor">
     <!-- Lista de juegos -->
-    <div>
-      <ul style="cursor:pointer; text-decoration:underline;">
-        <li>Call of Duty</li>
-        <li>Halo</li>
-        <li>Gears of War</li>
-        <li>Free Fire</li>
-        <li>Minecraft</li>
-        <li>Geometry Dash</li>
-        <li>Clash Royale</li>
-        <li>PK XD</li>
-        <li>Brawl Stars</li>
-        <li>Among Us</li>
-        <li>Fortnite</li>
-        <li>Mortal Kombat</li>
-        <li>Red Dead Redemption</li>
-        <li>Genshin Impact 💖</li>
-        <li>Pacman</li>
-        <li>Gran Theft Auto</li>
-        <li>FIFA</li>
-      </ul>
+    <div id="lista-juegos">
+      <button>Call of Duty</button>
+      <button>Halo</button>
+      <button>Gears of War</button>
+      <button>Free Fire</button>
+      <button>Minecraft</button>
+      <button>Geometry Dash</button>
+      <button>Clash Royale</button>
+      <button>PK XD</button>
+      <button>Brawl Stars</button>
+      <button>Among Us</button>
+      <button>Fortnite</button>
+      <button>Mortal Kombat</button>
+      <button>Red Dead Redemption</button>
+      <button class="seleccionado">Genshin Impact</button>
+      <button>Pacman</button>
+      <button>Gran Theft Auto</button>
+      <button>FIFA</button>
     </div>
     <!-- Juego seleccionado -->
-    <div style="text-align:center;">
-      <img src="" alt="Imagen de videojuego">
+    <div class="texto-centrado">
+      <img src="images/genshin.jpg" alt="Imagen de videojuego" class="caja-juego">
       <h2>Título del juego seleccionado</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur temporibus ratione quam, rerum voluptates dolorum ipsam? Doloribus minima et repellendus? Optio, provident eveniet alias iure quia esse! At, asperiores vero.</p>
     </div>
