@@ -1,12 +1,15 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Press+Start+2P&display=swap');
+
 body {
   background-image:url('../images/fondo.png');
   background-size: cover;
   font-size: 22px;
+  font-family: 'Kdam Thmor Pro';
 }
 
 .contenedor {
-  background-color:rgba(254, 254, 254, 0.36);
+  background-color:rgba(255, 255, 255, 0.33);
   border-radius: 16px;
   padding: 8px;
   display:flex;
@@ -41,16 +44,24 @@ body {
   height: 300px;
 }
 
+header a {
+  text-decoration: none;
+}
+
 h1 {
   color: rgb(63, 85, 208);
+  font-family: 'Press Start 2P';
+  text-shadow: 2px 2px black;
+  text-decoration: none;
 }
 
 #lista-juegos button {
-  background-color: #bb6a6a; 
+  background-color: #bb6a6a;
   color: white;
   display: block;
   padding: 10px;
   font-size: 22px;
+  font-family: 'Kdam Thmor Pro';
   width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -66,4 +77,30 @@ h1 {
 #lista-juegos button:hover {
   background-color: #834a4a; 
   transition: 0.5s;
+}
+
+#subpaginas a {
+  padding: 10px;
+  background-color:rgb(63, 85, 208);
+  color: white;
+  border-radius: 6px;
+  border-bottom-style: solid;
+  border-color:rgb(37, 52, 137);
+  margin-right: 30px;
+}
+
+.caja {
+  text-align: center;
+  margin: 50px;
+  border-style: solid;
+  border-color:rgb(63, 85, 208);
+  border-width: 6px;
+  border-radius: 6px;
+  background-color: rgb(63, 85, 208);
+  color: white;
+  box-shadow: 4px 4px black;
+}
+
+.caja img {
+  height: 300px;
 }
