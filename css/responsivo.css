@@ -1,0 +1,44 @@
+
+/*
+  min-height  : Altura mínima
+  max-height  : Altura máximo
+  min-width   : Anchura mínima
+  max-width   : Anchura máxima
+*/
+
+@media screen and (max-width: 1077px) {
+  #titulo-completo {
+    display: none;
+  }
+
+  #titulo-abreviado {
+    display: block;
+  }
+
+  #contenido-principal {
+    flex-direction: column;
+  }
+
+  #lista-juegos {
+    max-width: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #lista-juegos button {
+    display: inline-block;
+    width: auto;
+    margin: 6px;
+  }
+}
+
+
+@media screen and (max-width: 736px) {
+  #subpaginas {
+    display: none;
+  }
+  #encabezado {
+    justify-content: center; 
+  }
+}

@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Videojuegos Favoritos</title>
   <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/responsivo.css">
   <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
 </head>
 <body>
@@ -14,7 +15,10 @@
     <!-- Título y logo -->
     <a href="index.html" class="flex-center">
       <img src="images/logo.png" alt="Logo" id="logo">
-      <h1>Videojuegos Favoritos 🎮❤️</h1>
+      <h1>
+        <span id="titulo-completo">Videojuegos Favoritos🎮❤️</span>
+        <span id="titulo-abreviado">VF🎮❤️</span>
+      </h1>
     </a>
     <!-- Redes sociales / Sub-páginas -->
     <div id="subpaginas">
@@ -23,7 +27,7 @@
     </div>
   </header>
   <!-- Contenido principal -->
-  <div class="contenedor">
+  <div id="contenido-principal" class="contenedor">
     <!-- Lista de juegos -->
     <div id="lista-juegos">
       <button>Call of Duty</button>
