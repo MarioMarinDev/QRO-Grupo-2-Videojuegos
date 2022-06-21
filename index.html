@@ -30,7 +30,7 @@
     <!-- Lista de juegos -->
     <div id="lista-juegos" class="contenedor">
       <button>Call of Duty</button>
-      <button>Halo</button>
+      <button onclick="halo()">Halo</button>
       <button>Gears of War</button>
       <button>Free Fire</button>
       <button>Minecraft</button>
@@ -42,17 +42,18 @@
       <button>Fortnite</button>
       <button>Mortal Kombat</button>
       <button>Red Dead Redemption</button>
-      <button class="seleccionado">Genshin Impact</button>
-      <button>Pacman</button>
+      <button onclick="genshin()" class="seleccionado">Genshin Impact</button>
+      <button onclick="pacman()">Pacman</button>
       <button>Gran Theft Auto</button>
       <button>FIFA</button>
     </div>
     <!-- Juego seleccionado -->
     <div class="texto-centrado contenedor">
-      <img src="images/genshin.jpg" alt="Imagen de videojuego" class="caja-juego">
+      <img id="caja" src="images/genshin.jpg" alt="Imagen de videojuego" class="caja-juego">
       <h2>Título del juego seleccionado</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur temporibus ratione quam, rerum voluptates dolorum ipsam? Doloribus minima et repellendus? Optio, provident eveniet alias iure quia esse! At, asperiores vero.</p>
     </div>
   </div>
+  <script src="js/prueba.js"></script>
 </body>
 </html>
