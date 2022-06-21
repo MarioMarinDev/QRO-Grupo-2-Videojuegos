@@ -6,7 +6,7 @@
   max-width   : Anchura máxima
 */
 
-@media screen and (max-width: 1077px) {
+@media screen and (max-width: 1200px) {
   #titulo-completo {
     display: none;
   }
@@ -34,7 +34,7 @@
 }
 
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 800px) {
   #subpaginas {
     display: none;
   }
