@@ -121,3 +121,27 @@ h1 {
 .caja img {
   height: 300px;
 }
+
+input.campo {
+  font-family: 'Kdam Thmor Pro';
+  font-size: 24px;
+  background-color: #ffffffad;
+  border-style: none;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: rgb(63, 85, 208);
+}
+
+button.boton {
+  background-color: #bb6a6a;
+  color: white;
+  display: block;
+  padding: 10px;
+  font-size: 22px;
+  font-family: 'Kdam Thmor Pro';
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  border-style: none;
+  border-bottom-style: solid;
+}

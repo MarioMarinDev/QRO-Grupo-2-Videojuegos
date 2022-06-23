@@ -41,4 +41,7 @@
   #encabezado {
     justify-content: center; 
   }
+  input.campo {
+    width: 100%;
+  }
 }

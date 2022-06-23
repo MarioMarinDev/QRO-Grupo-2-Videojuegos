@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de juegos</title>
+  <link rel="stylesheet" href="../css/principal.css">
+</head>
+<body>
+  <!-- Encabezado de nuestra página -->
+  <header class="contenedor" id="encabezado">
+    <!-- Título y logo -->
+    <a href="index.html" class="flex-center">
+      <img src="../images/logo.png" alt="Logo" id="logo">
+      <h1>
+        <span id="titulo-completo">Videojuegos Favoritos🎮❤️</span>
+        <span id="titulo-abreviado">VF🎮❤️</span>
+      </h1>
+    </a>
+    <!-- Redes sociales / Sub-páginas -->
+    <div id="subpaginas">
+      <a href="vistas/cajas.html">Cajas de juegos</a>
+      <a href="vistas/practica_1.html">Ropa Gamer</a>
+    </div>
+  </header>
+  <!-- Contenido principal -->
+  <div class="contenedor">
+    <h2>Tienda de juegos</h2>
+    <p>Cada juego cuesta $200</p>
+    <label for="cantidad">¿Cuántos juegos quieres comprar?</label>
+    <br>
+    <input class="campo" type="number" name="cantidad" id="cantidad">
+    <button class="boton" onclick="calcular()">Calcular</button>
+    <p id="texto">El total es:</p>
+  </div>
+  <script src="../js/tienda.js"></script>
+</body>
+</html>
