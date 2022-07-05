@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Press+Start+2P&display=swap');
+
+body {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-image: url(../images/pkmn_fondo.jpg);
+  background-size: cover;
+  align-items: center;
+  height: 90vh;
+}
+
+.caja {
+  width: 500px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 16px;
+  padding: 10px 50px;
+  background-color: rgba(255, 255, 255, 0.775);
+}
+
+#nombre, #numero {
+  text-transform: capitalize;
+  font-family: 'Press Start 2P';
+}
+
+#imagen {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(207, 207, 207);
+  border-radius: 50%;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav button {
+  width: 100%;
+  min-height: 40px;
+  margin: 20px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Press Start 2P';
+  border-radius: 8px;
+  padding: 5px;
+}
+
+#siguiente {
+  background-color: rgb(21, 152, 21);
+}
+
+#anterior {
+  background-color: rgb(213, 34, 34);
+}
