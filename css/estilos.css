@@ -34,6 +34,12 @@ body {
   border-color:lightgrey;
   border-width: 5px;
   margin-right: 22px;
+  transition: 0.5s;
+}
+
+#logo:hover {
+  transition: 0.5s;
+  transform: rotate(360deg);
 }
 
 .texto-centrado {
@@ -117,6 +123,14 @@ h1 {
 #juego-info {
   padding: 10px 30px;
   text-align: justify;
+}
+
+#juego-info h2 {
+  margin-bottom: 0;
+}
+
+#juego-info h3 {
+  margin-top: 0;
 }
 
 #subpaginas {
