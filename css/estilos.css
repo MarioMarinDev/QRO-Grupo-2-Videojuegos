@@ -4,7 +4,7 @@
 body {
   background-image:url('../images/fondo.png');
   background-size: cover;
-  font-size: 22px;
+  font-size: 18px;
   font-family: 'Kdam Thmor Pro';
 }
 
@@ -41,7 +41,10 @@ body {
 }
 
 .caja-juego {
-  height: 300px;
+  width: 30%;
+  height: auto;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
 }
 
 header a {
@@ -64,7 +67,10 @@ h1 {
 }
 
 #lista-juegos {
-  max-width: 300px;
+  max-width: 470px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 #lista-juegos button {
@@ -72,14 +78,22 @@ h1 {
   color: white;
   display: block;
   padding: 10px;
-  font-size: 22px;
+  font-size: 16px;
   font-family: 'Kdam Thmor Pro';
-  width: 100%;
+  cursor: pointer;
+  width: 200px;
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 12px;
   border-style: none;
   border-bottom-style: solid;
+  transition: 0.5s;
+}
+
+#lista-juegos button:hover,
+#lista-juegos button.seleccionado {
+  width: 220px;
+  transition: 0.5s;
 }
 
 #lista-juegos button.seleccionado {
@@ -89,6 +103,20 @@ h1 {
 #lista-juegos button:hover {
   background-color: #834a4a; 
   transition: 0.5s;
+}
+
+#juego-seleccionado {
+  display: flex;
+  height: fit-content;
+  transition: 1s;
+  padding-left: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#juego-info {
+  padding: 10px 30px;
+  text-align: justify;
 }
 
 #subpaginas {
