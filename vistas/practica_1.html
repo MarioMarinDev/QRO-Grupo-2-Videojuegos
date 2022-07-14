@@ -7,10 +7,14 @@
   <title>Práctica 1</title>
   <link rel="stylesheet" href="../css/estilos.css">
   <link rel="stylesheet" href="../css/practica_1.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
 </head>
-<body>
+<body style="height: 200vh;">
   <div>
     <!-- PRIMER BLOQUE -->
+    <nav class="navbar sticky-top navbar-light bg-light">
+      <a class="navbar-brand" href="#">Sticky top</a>
+    </nav>
     <header class="contenedor" id="encabezado">
       <!-- Título y logo -->
       <a href="index.html" class="flex-center">
@@ -20,32 +24,33 @@
     </header>
     <!-- SEGUNDO BLOQUE -->
     <div class="contenedor">
-      <section>
-        <h3><b>Playera de Creeper</b> $100</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ex praesentium doloremque quibusdam aut exercitationem deleniti adipisci suscipit molestiae voluptates dignissimos, possimus a quaerat libero ea est eum obcaecati fugiat.</p>
-        <img src="https://images-na.ssl-images-amazon.com/images/I/71WyHiqMm0L._AC_UL1500_.jpg" alt="Player de Creeper">
-      </section>
-      <section>
-        <h3><b>Playera de Creeper</b> $100</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ex praesentium doloremque quibusdam aut exercitationem deleniti adipisci suscipit molestiae voluptates dignissimos, possimus a quaerat libero ea est eum obcaecati fugiat.</p>
-        <img src="https://images-na.ssl-images-amazon.com/images/I/71WyHiqMm0L._AC_UL1500_.jpg" alt="Player de Creeper">
-      </section>
-      <section>
-        <h3><b>Playera de Creeper</b> $100</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ex praesentium doloremque quibusdam aut exercitationem deleniti adipisci suscipit molestiae voluptates dignissimos, possimus a quaerat libero ea est eum obcaecati fugiat.</p>
-        <img src="https://images-na.ssl-images-amazon.com/images/I/71WyHiqMm0L._AC_UL1500_.jpg" alt="Player de Creeper">
-      </section>
-      <section>
-        <h3><b>Playera de Creeper</b> $100</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ex praesentium doloremque quibusdam aut exercitationem deleniti adipisci suscipit molestiae voluptates dignissimos, possimus a quaerat libero ea est eum obcaecati fugiat.</p>
-        <img src="https://images-na.ssl-images-amazon.com/images/I/71WyHiqMm0L._AC_UL1500_.jpg" alt="Player de Creeper">
-      </section>
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
     </div>
-    <footer class="contenedor" style="display: block;">
-      <img src="../images/logo.png" alt="Logo" style="width: 50px;">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum itaque officia, laudantium illo quidem temporibus harum. At, beatae veniam! Voluptas, unde totam? Et repellat, incidunt facilis excepturi eos delectus temporibus?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt tenetur nam est fugit quae provident a eum, beatae aspernatur placeat maxime labore perferendis distinctio accusamus natus? Voluptatibus enim consectetur beatae? </p>
-    </footer>
   </div>
+</div>
+    </div>
+  </div>
+  <script src="../js/jquery.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
